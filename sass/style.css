@@ -1,0 +1,1217 @@
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+header .logo {
+  width: 30%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo h1 {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 41px;
+  font-family: myFont;
+  font-style: normal;
+  color: #b76837;
+}
+header .logo h1 span {
+  color: #4d2004;
+}
+header .nav {
+  width: 70%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+header .nav ul li {
+  list-style: none;
+}
+header .nav ul a {
+  text-decoration: none;
+  color: black;
+}
+header .nav ul a:hover {
+  color: brown;
+}
+header .burger {
+  width: 10%;
+  height: 80px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+header .burger .fa-burger {
+  font-size: 30px;
+  color: #a55c30;
+}
+
+.One {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.One .vector {
+  width: 40%;
+  height: 600px;
+  position: absolute;
+  left: 911px;
+}
+.One .car {
+  width: 45%;
+  height: 400px;
+  position: absolute;
+  top: 120px;
+  left: 750px;
+}
+.One .text {
+  width: 24%;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.One .text h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 62px;
+  font-family: myFont1;
+}
+.One .border {
+  width: 1%;
+  height: 200px;
+  background-color: gold;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.Two {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Two .main-box {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.Two .main-box .photo {
+  width: 40%;
+  height: 400px;
+}
+.Two .main-box .text {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Two .main-box .text .textcontent {
+  width: 60%;
+  height: 300px;
+}
+.Two .main-box .text .textcontent .title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.Two .main-box .text .textcontent .title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: myFont1;
+  color: #A55C30;
+}
+.Two .main-box .text .textcontent .subcontent {
+  width: 100%;
+  height: 250px;
+}
+.Two .main-box .text .textcontent .subcontent p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.Three {
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/sec3bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Three .main-box {
+  width: 80%;
+  height: 400px;
+}
+.Three .main-box .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Three .main-box .title h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #a55c30;
+}
+.Three .main-box .boxes {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.Three .main-box .boxes .box1 {
+  width: 25%;
+  height: 300px;
+}
+.Three .main-box .boxes .box1 .logo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Three .main-box .boxes .box1 .title {
+  width: 100%;
+  height: 60px;
+}
+.Three .main-box .boxes .box1 .title h1 {
+  color: white;
+  font-size: 24px;
+}
+.Three .main-box .boxes .box1 .text {
+  width: 100%;
+  height: 160px;
+}
+.Three .main-box .boxes .box1 .text p {
+  font-size: 20px;
+  color: white;
+}
+.Three .main-box .boxes .box2 {
+  width: 25%;
+  height: 300px;
+}
+.Three .main-box .boxes .box2 .logo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Three .main-box .boxes .box2 .title {
+  width: 100%;
+  height: 60px;
+}
+.Three .main-box .boxes .box2 .title h1 {
+  color: white;
+  font-size: 24px;
+}
+.Three .main-box .boxes .box2 .text {
+  width: 100%;
+  height: 160px;
+}
+.Three .main-box .boxes .box2 .text p {
+  font-size: 20px;
+  color: white;
+}
+.Three .main-box .boxes .box3 {
+  width: 25%;
+  height: 300px;
+}
+.Three .main-box .boxes .box3 .logo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Three .main-box .boxes .box3 .title {
+  width: 100%;
+  height: 60px;
+}
+.Three .main-box .boxes .box3 .title h1 {
+  color: white;
+  font-size: 24px;
+}
+.Three .main-box .boxes .box3 .text {
+  width: 100%;
+  height: 160px;
+}
+.Three .main-box .boxes .box3 .text p {
+  font-size: 20px;
+  color: white;
+}
+
+.Four {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Four .sec4title {
+  width: 80%;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Four .sec4title h1 {
+  color: #a55c30;
+}
+.Four #carouselExampleIndicators {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Four .carsbox {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.Four .carsbox .box1 {
+  width: 25%;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Four .carsbox .box1 .photo {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Four .carsbox .box1 .boxtitle {
+  width: 100%;
+  height: 80px;
+}
+.Four .carsbox .box1 .boxtitle h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #a55c30;
+  text-align: center;
+}
+.Four .carsbox .box1 .boxtitle h6 {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+.Four .carsbox .box1 .boxtext {
+  width: 100%;
+  height: 120px;
+}
+.Four .carsbox .box1 .boxtext p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.Four .carsbox .box1 .boxdetail {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.Four .carsbox .box1 .boxdetail .vec2 {
+  margin-left: 100px;
+}
+.Four .carsbox .box2 {
+  width: 25%;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Four .carsbox .box2 .photo {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Four .carsbox .box2 .boxtitle {
+  width: 100%;
+  height: 80px;
+}
+.Four .carsbox .box2 .boxtitle h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #a55c30;
+  text-align: center;
+}
+.Four .carsbox .box2 .boxtitle h6 {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+.Four .carsbox .box2 .boxtext {
+  width: 100%;
+  height: 120px;
+}
+.Four .carsbox .box2 .boxtext p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.Four .carsbox .box2 .boxdetail {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.Four .carsbox .box2 .boxdetail .vec2 {
+  margin-left: 100px;
+}
+.Four .carsbox .box3 {
+  width: 25%;
+  height: 400px;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Four .carsbox .box3 .photo {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Four .carsbox .box3 .boxtitle {
+  width: 100%;
+  height: 80px;
+}
+.Four .carsbox .box3 .boxtitle h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #a55c30;
+  text-align: center;
+}
+.Four .carsbox .box3 .boxtitle h6 {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+.Four .carsbox .box3 .boxtext {
+  width: 100%;
+  height: 120px;
+}
+.Four .carsbox .box3 .boxtext p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.Four .carsbox .box3 .boxdetail {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.Four .carsbox .box3 .boxdetail .vec2 {
+  margin-left: 100px;
+}
+
+.Five {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Five .main-box {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.Five .main-box .box1 {
+  width: 25%;
+  height: 200px;
+}
+.Five .main-box .box1 h1 {
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.Five .main-box .box1 p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.Five .main-box .box2 {
+  width: 25%;
+  height: 200px;
+}
+.Five .main-box .box2 h1 {
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.Five .main-box .box2 p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.Five .main-box .box3 {
+  width: 25%;
+  height: 200px;
+}
+.Five .main-box .box3 h1 {
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.Five .main-box .box3 p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.Six {
+  width: 100%;
+  height: 600px;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Six .sec6title {
+  width: 80%;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Six .sec6title h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(165, 92, 48);
+}
+.Six .card {
+  width: 80%;
+  height: 400px;
+  position: absolute;
+  top: 180px;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Six .card .cards {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.Six .card .cards .card1 {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Six .card .cards .card1 .card1box {
+  width: 50%;
+  height: 300px;
+}
+.Six .card .cards .card1 .card1box .photo {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Six .card .cards .card1 .card1box .text {
+  width: 100%;
+  height: 100px;
+}
+.Six .card .cards .card1 .card1box .text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+.Six .card .cards .card1 .card1box .text p {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+.Six .card .cards .card2 {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Six .card .cards .card2 .card2box {
+  width: 90%;
+  height: 300px;
+}
+.Six .card .cards .card2 .card2box .text {
+  width: 100%;
+  height: 200px;
+}
+.Six .card .cards .card2 .card2box .text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.Six .card .cards .card2 .card2box .stars {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Six .card .cards .card2 .card2box .stars .fa-solid {
+  color: burlywood;
+}
+
+.Seven {
+  width: 100%;
+  height: 300px;
+  background-image: url("/img/sec3bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Seven .main-box {
+  width: 80%;
+  height: 200px;
+}
+.Seven .main-box .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Seven .main-box .title h6 {
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+}
+.Seven .main-box .text {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Seven .main-box .text h1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.Eight {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Eight .title {
+  width: 50%;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Eight .title h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: rgb(165, 92, 48);
+}
+.Eight .box {
+  width: 50%;
+  height: 600px;
+  position: absolute;
+  top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(232, 234, 236);
+}
+.Eight .box .email-box {
+  width: 60%;
+  height: 400px;
+}
+.Eight .box .email-box .name {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Eight .box .email-box .name input {
+  width: 80%;
+  height: 50px;
+  border: 0.5px solid #d2d2d2;
+}
+.Eight .box .email-box .name input:focus-visible {
+  outline: none;
+}
+.Eight .box .email-box .email {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Eight .box .email-box .email input {
+  width: 80%;
+  height: 50px;
+  border: 0.5px solid #d2d2d2;
+}
+.Eight .box .email-box .email input:focus-visible {
+  outline: none;
+}
+.Eight .box .email-box .type {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Eight .box .email-box .type input {
+  width: 80%;
+  height: 50px;
+  border: 0.5px solid #d2d2d2;
+}
+.Eight .box .email-box .type input:focus-visible {
+  outline: none;
+}
+.Eight .box .email-box .details {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Eight .box .email-box .details textarea {
+  width: 80%;
+  height: 200px;
+  border: 0.5px solid #d2d2d2;
+}
+.Eight .box .email-box .details textarea:focus-visible {
+  outline: none;
+}
+.Eight .box .email-box .button {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Eight .box .email-box .button .send {
+  width: 50%;
+  height: 60px;
+  background-color: rgb(165, 92, 48);
+  color: white;
+}
+.Eight .box .email-box .button .send:hover {
+  background-color: brown;
+}
+
+footer {
+  width: 100%;
+  height: 650px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+footer .main-box {
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .main-box .about {
+  width: 30%;
+  height: 300px;
+}
+footer .main-box .about .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+footer .main-box .about .title h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(165, 92, 48);
+  font-family: myFont;
+}
+footer .main-box .about .title h1 span {
+  color: brown;
+}
+footer .main-box .about .text1 {
+  width: 100%;
+  height: 100px;
+}
+footer .main-box .about .text1 p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(250, 250, 250);
+}
+footer .main-box .about .text2 {
+  width: 100%;
+  height: 100px;
+}
+footer .main-box .about .text2 p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(250, 250, 250);
+}
+footer .main-box .news {
+  width: 30%;
+  height: 300px;
+}
+footer .main-box .news .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .main-box .news .title h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(165, 92, 48);
+}
+footer .main-box .news .text {
+  width: 100%;
+  height: 100px;
+}
+footer .main-box .news .text p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(250, 250, 250);
+}
+footer .main-box .news .subscribe {
+  width: 100%;
+  height: 100px;
+}
+footer .main-box .news .subscribe input {
+  width: 240px;
+  height: 50px;
+}
+footer .main-box .news .subscribe input:focus-visible {
+  outline: none;
+}
+footer .main-box .news .subscribe button {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(165, 92, 48);
+  color: white;
+}
+footer .main-box .news .subscribe button:hover {
+  background-color: brown;
+}
+footer .main-box .contact {
+  width: 30%;
+  height: 300px;
+}
+footer .main-box .contact .title {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .main-box .contact .title h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(165, 92, 48);
+}
+footer .main-box .contact .adress {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+footer .main-box .contact .adress .fa-solid {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+footer .main-box .contact .adress p {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 10px;
+}
+footer .main-box .contact .tel {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+footer .main-box .contact .tel .fa-solid {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+footer .main-box .contact .tel .number {
+  width: 50%;
+  height: 60px;
+}
+footer .main-box .contact .tel .number p {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(250, 250, 250);
+  margin-left: 10px;
+}
+footer .main-box .contact .email {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+footer .main-box .contact .email .fa-solid {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+footer .main-box .contact .email p {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(250, 250, 250);
+  margin-left: 10px;
+}
+footer .sociallinks {
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  top: 350px;
+}
+footer .sociallinks .links {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .sociallinks .links .fa-facebook {
+  color: white;
+  font-size: 30px;
+}
+footer .sociallinks .links .fa-twitter {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+}
+footer .sociallinks .links .fa-instagram {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+footer .sociallinks .line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+footer .sociallinks .company {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .sociallinks .company p {
+  color: rgb(250, 250, 250);
+}
+
+@media only screen and (max-width: 600px) {
+  header .logo {
+    width: 70%;
+  }
+  header .nav {
+    width: 30%;
+  }
+  header .nav ul {
+    display: none;
+  }
+  header .burger {
+    width: 100%;
+    display: flex;
+  }
+  .One {
+    height: 700px;
+  }
+  .One .vector {
+    display: none;
+  }
+  .One .car {
+    width: 90%;
+    height: 400px;
+    top: 220px;
+    left: 60px;
+  }
+  .One .text {
+    top: 0;
+    left: 150px;
+  }
+  .One .text h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .One .border {
+    top: 0;
+    left: 100px;
+  }
+  .Two {
+    height: 1200px;
+    display: block;
+    position: relative;
+  }
+  .Two .main-box {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+  }
+  .Two .main-box .photo {
+    width: 100%;
+  }
+  .Two .main-box .text {
+    width: 100%;
+    height: 600px;
+  }
+  .Two .main-box .text .textcontent {
+    width: 70%;
+  }
+  .Two .main-box .text .textcontent .title {
+    justify-content: center;
+  }
+  .Two .main-box .text .textcontent .title h1 {
+    text-align: center;
+  }
+  .Two .main-box .text .textcontent .subcontent p {
+    font-size: 25px;
+    line-height: 120%;
+  }
+  .Three {
+    height: 1200px;
+    display: block;
+    position: relative;
+  }
+  .Three .main-box {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .Three .main-box .boxes {
+    flex-direction: column;
+  }
+  .Three .main-box .boxes .box1 {
+    width: 100%;
+  }
+  .Three .main-box .boxes .box2 {
+    width: 100%;
+  }
+  .Three .main-box .boxes .box3 {
+    width: 100%;
+  }
+  .Four #carouselExampleIndicators {
+    width: 100%;
+  }
+  .Four .carsbox .box1 .photo {
+    height: 100px;
+  }
+  .Four .carsbox .box1 .boxtitle h1 {
+    font-size: 16px;
+  }
+  .Four .carsbox .box1 .boxtitle h6 {
+    font-size: 10px;
+  }
+  .Four .carsbox .box1 .boxtext p {
+    font-size: 12px;
+  }
+  .Four .carsbox .box1 .boxdetail {
+    height: 95px;
+  }
+  .Four .carsbox .box1 .boxdetail .vec2 {
+    margin-left: 10px;
+  }
+  .Four .carsbox .box2 .photo {
+    height: 100px;
+  }
+  .Four .carsbox .box2 .boxtitle h1 {
+    font-size: 16px;
+  }
+  .Four .carsbox .box2 .boxtitle h6 {
+    font-size: 10px;
+  }
+  .Four .carsbox .box2 .boxtext p {
+    font-size: 12px;
+  }
+  .Four .carsbox .box2 .boxdetail {
+    height: 95px;
+  }
+  .Four .carsbox .box2 .boxdetail .vec2 {
+    margin-left: 10px;
+  }
+  .Four .carsbox .box3 .photo {
+    height: 100px;
+  }
+  .Four .carsbox .box3 .boxtitle h1 {
+    font-size: 16px;
+  }
+  .Four .carsbox .box3 .boxtitle h6 {
+    font-size: 10px;
+  }
+  .Four .carsbox .box3 .boxtext p {
+    font-size: 12px;
+  }
+  .Four .carsbox .box3 .boxdetail {
+    height: 95px;
+  }
+  .Four .carsbox .box3 .boxdetail .vec2 {
+    margin-left: 10px;
+  }
+  .Five {
+    height: 600px;
+  }
+  .Five .main-box {
+    flex-direction: column;
+  }
+  .Five .main-box .box1 {
+    width: 100%;
+  }
+  .Five .main-box .box2 {
+    width: 100%;
+  }
+  .Five .main-box .box3 {
+    width: 100%;
+  }
+  .Six {
+    height: 1000px;
+  }
+  .Six .card {
+    height: 800px;
+  }
+  .Six .card .cards {
+    height: 800px;
+    flex-direction: column;
+  }
+  .Six .card .cards .card1 {
+    width: 100%;
+  }
+  .Six .card .cards .card2 {
+    width: 100%;
+  }
+  .Seven {
+    height: 400px;
+  }
+  .Seven .main-box .title h6 {
+    font-size: 28px;
+  }
+  .Seven .main-box .text h1 {
+    font-size: 48px;
+  }
+  .Eight {
+    height: 1000px;
+  }
+  .Eight .box {
+    width: 90%;
+  }
+  .Eight .box .email-box {
+    width: 100%;
+  }
+  .Eight .box .email-box .name input {
+    width: 70%;
+  }
+  .Eight .box .email-box .email input {
+    width: 70%;
+  }
+  .Eight .box .email-box .type input {
+    width: 70%;
+  }
+  .Eight .box .email-box .details textarea {
+    width: 70%;
+  }
+  .Eight .box .email-box .button .send {
+    width: 30%;
+  }
+  footer {
+    height: 1400px;
+  }
+  footer .main-box {
+    flex-direction: column;
+  }
+  footer .main-box .about {
+    width: 100%;
+  }
+  footer .main-box .about .title {
+    justify-content: center;
+  }
+  footer .main-box .about .text1 p {
+    font-size: 22px;
+  }
+  footer .main-box .about .text2 p {
+    font-size: 22px;
+  }
+  footer .main-box .news {
+    width: 100%;
+    height: 400px;
+  }
+  footer .main-box .news .text p {
+    font-size: 22px;
+  }
+  footer .main-box .news .subscribe {
+    height: 200px;
+    position: relative;
+  }
+  footer .main-box .news .subscribe input {
+    position: absolute;
+    width: 280px;
+    top: 20px;
+    left: 90px;
+  }
+  footer .main-box .news .subscribe button {
+    position: absolute;
+    top: 100px;
+    left: 170px;
+  }
+  footer .main-box .contact {
+    width: 100%;
+  }
+  footer .sociallinks {
+    top: 1100px;
+  }
+}
+@font-face {
+  font-family: myFont;
+  src: url("/fonts/Delmon Delicate.ttf");
+}/*# sourceMappingURL=style.css.map */
