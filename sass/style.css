@@ -148,7 +148,7 @@ header .burger .fa-burger {
 .Three {
   width: 100%;
   height: 500px;
-  background-image: url("/img/sec3bg.png");
+  background-image: url("imgg/sec3bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
